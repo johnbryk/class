@@ -1,9 +1,7 @@
 import java.util.Scanner;
 /**
- * Write a description of class Example2 here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Chaining conditionals.
+ * Using || instead of chaining commented out below.
  */
 public class Example2
 {
@@ -29,6 +27,15 @@ public class Example2
         {
             System.out.println("(" + x + "," + y + ") is not on an axis.");
         }
+        
+        // if (y == 0 || x == 0)
+        // {
+            // System.out.println("(" + x + "," + y + ") is on an axis.");
+        // }
+        // else
+        // {
+            // System.out.println("(" + x + "," + y + ") is not on an axis.");
+        // }
         
     }
 }

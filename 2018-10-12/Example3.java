@@ -1,9 +1,7 @@
 import java.util.Scanner;
 /**
- * Write a description of class Example3 here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Nesting conditionals.
+ * Using && instead of nesting commented out below.
  */
 public class Example3
 {

@@ -1,9 +1,6 @@
 
 /**
- * Write a description of class Example1 here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Pointless conditionals.
  */
 public class Example1
 {

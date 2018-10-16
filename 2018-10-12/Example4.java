@@ -1,9 +1,7 @@
 import java.util.Scanner;
 /**
- * Write a description of class Example4 here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Validating input.
+ * Using return to skip code.
  */
 public class Example4
 {

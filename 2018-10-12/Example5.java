@@ -1,9 +1,6 @@
 
 /**
- * Write a description of class Example5 here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * A recursive function.
  */
 public class Example5
 {
