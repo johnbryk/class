@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=Example5
-comment0.text=\n\ A\ recursive\ function.\n
-comment1.params=
-comment1.target=void\ main()
-comment2.params=n
-comment2.target=void\ other(int)
-numComments=3
