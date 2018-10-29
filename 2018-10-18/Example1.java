@@ -13,7 +13,7 @@ public class Example1
             System.out.println(countdown);
             // wait 1 second (1000 milliseconds)
             Thread.sleep(1000);
-            countdown--;
+            countdown++;
         }
         
         // happy new year!
