@@ -22,7 +22,7 @@ public class Example1
         System.out.println("copy 3: " + Arrays.toString(copy3) + "\n");
         
         array[0] = 1;
-        // array = reverse(array);
+        array = reverse(array);
         // array = shift(array, 3);
         
         System.out.println("After editing original array:");        
@@ -34,7 +34,8 @@ public class Example1
     
     // copies array via copy = array
     public static int[] copyArray1 (int[] array) {
-        int[] copy = array;
+        int[] copy = new int[array.length];
+        copy = array;
         return copy;
     }
     
@@ -55,7 +56,11 @@ public class Example1
     
     // reverses an array--use a loop!
     public static int[] reverse (int[] array) {
-        return null;
+        int[] copy = new int[array.length];
+        for (int i = 0; i < array.length; i++) {
+            copy[i] = array[array.length - 1 - i];
+        }
+        return copy;
     }
     
     // shifts an array to the right n spaces--use a loop and modulo operator!

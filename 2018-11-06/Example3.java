@@ -17,8 +17,8 @@ public class Example3
                                         "Susan",
                                         "Roanna",
                                         "Sarah"};
-        for (String name : names) {
-            sayHello(name);
+        for (String name : names) { // for (int i = 0; i < names.length; i++) {
+            sayHello(name); // String name = names[i]; sayHello(name);
         }
         
         System.out.println("");

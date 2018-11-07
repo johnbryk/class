@@ -13,7 +13,7 @@ public class Example2
         System.out.println("Grades: " + Arrays.toString(array));
         System.out.println("A's: " + inRange(array, 90, 101));
         System.out.println("B's: " + inRange(array, 80, 90));
-        System.out.println("A's: " + inRange(array, 70, 80));
+        System.out.println("C's: " + inRange(array, 70, 80));
         System.out.println("Average: " + average(array) + "\n");
         
     }
@@ -41,7 +41,11 @@ public class Example2
     
     // give sum of values in array
     public static int sum(int[] array) {
-        return 0;
+        int sum = 0;
+        for (int number : array) {
+            sum += number;
+        }
+        return sum;
     }
     
     // give average of values in array
