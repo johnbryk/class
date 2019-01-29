@@ -51,7 +51,7 @@ public class Polygon {
     
     public void scale(double k) {
         for (Point2D corner : corners) {
-            corner.setLocation(corner.getX() * k, corner.getY() * k);
+            corner.setLocation((corner.getX() - 200) * k + 200, (corner.getY() - 200) * k + 200);
         }
         updateSides();
         d.repaint();
@@ -60,8 +60,8 @@ public class Polygon {
     public void rotate(double t) {
         t = t * Math.PI / 180;
         for (Point2D corner : corners) {
-            corner.setLocation(corner.getX() * Math.cos(t) + corner.getY() * Math.sin(t),
-                               corner.getX() * Math.sin(-t) + corner.getY() * Math.cos(t));
+            corner.setLocation((corner.getX() - 200) * Math.cos(t) + (corner.getY() - 200) * Math.sin(t) + 200,
+                               (corner.getX() - 200) * Math.sin(-t) + (corner.getY() - 200) * Math.cos(t) + 200);
         }
         updateSides();
         d.repaint();
